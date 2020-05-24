@@ -2,10 +2,6 @@
 <html lang="en">
 
 <head>
-
-    <script>
-        dataLayer = [];
-    </script>
     
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -14,6 +10,18 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5KSRS2K');</script>
     <!-- End Google Tag Manager -->
+    
+    
+    <!-- API -->
+    <script src="the/Path/To/The/Downloaded/JQuery.js"></script>
+    <script>
+        function myFunction() {
+            $.post( "http://httpbin.org/get", function( data ) {
+                 $('#demo').html(data);
+            });
+        }
+    </script>
+    <!-- End API -->
     
 
     <meta charset="UTF-8">
@@ -48,6 +56,13 @@
         <a href="https://www.linkedin.com/in/isabeleisenach/ "> <img alt="LinkedIn " src="linkedin.svg " width="30 " height="30 "> </a>
         <a href="mailto:isabeleisenach@gmail.com "> <img alt="Email " src="envelope.svg " width="30 " height="30 "> </a>
 <br><br>
+
+    <p>Click the button to trigger a function.</p>
+
+    <button onclick="myFunction()">Click me</button>
+
+    <p id="demo"></p>
+          
 <div class="button">
     CLICK ME
 </div>
