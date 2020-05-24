@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <clipPath id="clip-envelope">
+      <rect width="256" height="256"/>
+    </clipPath>
+  </defs>
+  <g id="envelope" clip-path="url(#clip-envelope)">
+    <path id="gmail-icon-1" d="M100,0A100,100,0,1,1,0,100,100.036,100.036,0,0,1,100,0Zm50.067,60.133L53,59.867,101.533,98.4Zm-60,49L47.667,75.8v63.333H152.533v-62L113.2,109.267C99.867,120.133,103.867,119.933,90.067,109.133ZM48.2,47.733H152.8a15.378,15.378,0,0,1,15.333,15.333V136.4A15.378,15.378,0,0,1,152.8,151.733H48.2A15.378,15.378,0,0,1,32.867,136.4V63.067A15.378,15.378,0,0,1,48.2,47.733Z" transform="translate(28 28)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
